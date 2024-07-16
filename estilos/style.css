@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -28,9 +29,9 @@ header h1
     font-family: var(--fonte1);
 }
 
-header h2
+header > h2 
 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-family: var(--fonte3);
     font-weight: normal;
 }
@@ -80,7 +81,7 @@ div#divComImagem2
 
 footer
 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     padding: 15px;
     background-color: black;
