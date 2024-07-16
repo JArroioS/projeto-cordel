@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root
+{
+    --fonte1: 'Passion One','cursive';
+    --fonte2: 'Sriracha','cursive';
+    --fonte3: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}
+
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 75px;
+}
+
+header h1
+{
+    font-size: 10vi;
+    font-family: var(--fonte1);
+}
+
+header h2
+{
+    font-family: var(--fonte3);
+    font-weight: normal;
+}
+
+header > h2 > a
+{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+header > h2 > a:hover
+{
+    text-decoration: underline;
+}
+
+main > div
+{
+    padding: 10vh 50px;   
+}
+
+main > div > p
+{
+    font-weight: normal;
+    font-family: var(--fonte2);
+    font-size: 3.4vi;
+    padding: 10px 0px;
+}
+
+p.textoComFundo
+{
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 10px;
+}
+
+div#divComImagem1
+{
+    background: white url('../pacote-d012/imagens/background001.jpg') right center / cover no-repeat fixed;
+}
+
+div#divComImagem2
+{
+    background: white url('../pacote-d012/imagens/background002.jpg') center center / cover no-repeat fixed;
+}
+
+footer
+{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte3);
+}
+
+footer > p > a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
