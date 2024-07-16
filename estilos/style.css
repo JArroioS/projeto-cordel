@@ -30,6 +30,7 @@ header h1
 
 header h2
 {
+    font-size: 1.5em;
     font-family: var(--fonte3);
     font-weight: normal;
 }
@@ -79,7 +80,7 @@ div#divComImagem2
 
 footer
 {
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: center;
     padding: 15px;
     background-color: black;
