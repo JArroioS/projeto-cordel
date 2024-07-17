@@ -71,12 +71,14 @@ p.textoComFundo
 
 div#divComImagem1
 {
-    background: white url('../pacote-d012/imagens/background001.jpg') right center / cover no-repeat fixed;
+    background: white url('../pacote-d012/imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
 }
 
 div#divComImagem2
 {
-    background: white url('../pacote-d012/imagens/background002.jpg') center center / cover no-repeat fixed;
+    background: white url('../pacote-d012/imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 footer
