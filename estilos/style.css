@@ -63,9 +63,10 @@ main > div > p
 
 p.textoComFundo
 {
+    text-shadow: 5px 5px 5px black;
     display: inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 20px 10px;
 }
 
