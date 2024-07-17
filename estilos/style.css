@@ -31,7 +31,7 @@ header h1
 
 header > h2 
 {
-    font-size: 2.5em;
+    font-size: 4vi;
     font-family: var(--fonte3);
     font-weight: normal;
 }
@@ -81,7 +81,7 @@ div#divComImagem2
 
 footer
 {
-    font-size: 2.5em;
+    font-size: 1.5vi;
     text-align: center;
     padding: 15px;
     background-color: black;
